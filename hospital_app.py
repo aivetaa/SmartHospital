@@ -132,15 +132,15 @@ with st.form("triage_form"):
         shortness_breath = st.checkbox("😮‍💨  Shortness of Breath")
         nausea_vomiting  = st.checkbox("🤮  Nausea / Vomiting")
         dizziness        = st.checkbox("😵  Dizziness")
-    """with c4:
-        nausea_vomiting  = st.checkbox("🤮  Nausea / Vomiting")
-        dizziness        = st.checkbox("😵  Dizziness")"""
+    # """with c4:
+    #     nausea_vomiting  = st.checkbox("🤮  Nausea / Vomiting")
+    #     # dizziness        = st.checkbox("😵  Dizziness")"""
 
-    """c5, _, _, _ = st.columns(4)
-    with c5:
-        skin_rash = st.checkbox("🔴  Skin Rash")"""
+    # """c5, _, _, _ = st.columns(4)
+    # with c5:
+    #     skin_rash = st.checkbox("🔴  Skin Rash")"""
 
-    st.markdown("<br>", unsafe_allow_html=True)
+    # st.markdown("<br>", unsafe_allow_html=True)
 
     # Section 2 — Duration & Complaint
     st.markdown("""
